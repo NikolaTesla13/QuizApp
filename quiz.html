@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Quiz App</title>
+  </head>
+  <body>
+    <p id="stats"></p>
+    <p id="question"></p>
+    <form onsubmit="return getPoints()" action="quiz.html" method="POST">
+      <label for="ans">answer: </label>
+      <input name="ans" id="ans"></input>
+      <input type="submit" value="submit"></input>
+    </form>
+    <script src="main.js"></script>
+    <script src="quiz.js"></script>
+  </body>
+</html>
